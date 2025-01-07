@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.App{
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    width: 60%;
+    height: auto;
+    text-align: center; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.App .header{
+    color: white;
+    font-size: 20px;
+}
+
+.FormAddMoney p{
+    color: white;
+    
+}
+.FormAddMoney input[type="number"]{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+.FormAddMoney input[type="submit"]{
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    width: 183px;
+    background-color: black;
+    color: white;
+}
+.FormAddMoney input[type="submit"]:hover{
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+   
+}
+
+.error{
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.balance{
+    background-color: rgba(255, 255, 255, .7);
+    padding: 30px;
+    border-radius: 10px;
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.mainControl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    
+
+}
+
+.mainControl input[type="number"]{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none;
+
+}
+select{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none;
+    width: 170px;
+    text-align: center;
+
+}
+
+.mainControl input[type="submit"]{
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    width: 183px;
+    background-color: black;
+    color: white;
+}
+
+.formAddSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 55%;
+    color: white;
+}
+
+.formAddSub h3{
+    color: black;
+}
+.singleItem{
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.singleItem img{
+    width: 18%;
+   
+
+}
+.singleItem h3{
+    font-size: 24px;
+   
+
+}
+
+.buttona{
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 10px;
+    transition: all 0.7 ease-in-out;
+ 
+   
+}
+
+.buttona:last-child:hover{
+    color: red;
+ 
+   
+}
+.buttona:first-child:hover{
+    color: rgb(5, 31, 226);
+ 
+   
+}
